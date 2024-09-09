@@ -102,13 +102,14 @@ fun inverseMatrix(matrix: Array<DoubleArray>): Array<DoubleArray>? {// We put in
 }
 
 fun main(){
+
     val matrix = arrayOf(
         doubleArrayOf(4.0, 7.0, 5.0),
         doubleArrayOf(2.0, 6.0, 9.0),
         doubleArrayOf(4.0, 6.0, 7.0)
     )
 
-    val inverse = inverseMatrix(matrix) //
+    val inverse = inverseMatrix(matrix)
 
     if (inverse != null) {
         println("Inverse Matrix:")
